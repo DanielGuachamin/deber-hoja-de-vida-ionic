@@ -1,0 +1,7 @@
+{
+  "name": "deber-hoja-de-vida",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
