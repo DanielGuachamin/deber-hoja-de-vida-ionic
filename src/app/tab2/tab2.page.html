@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Formación académica
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,9 +9,67 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
+      <ion-title size="large">Formación académica</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Educación</ion-card-title>
+          </ion-card-header>
+          <div style="width: 300px; margin: 10px 140px;">
+            <ion-img src="https://scontent.fuio23-1.fna.fbcdn.net/v/t39.30808-6/242828964_2923283661256460_3431478419167448117_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeFOQpiYHQINCwhGn16La68oizAPCq-bpYGLMA8Kr5ulgfz5RcfadpA7k5u_QrRQoUd4IzVryaZo4mVvIYNDiOdO&_nc_ohc=dKNsWCyU5cQAX9B1ljG&_nc_ht=scontent.fuio23-1.fna&oh=00_AT9vCVOhXryacGcLXYI1BPcNuj8oFe_oUZWb0S9Z6cX_ow&oe=628E5E74" alt="Imagen-ITSCT"></ion-img>
+          </div>
+          
+        
+          <ion-card-content>
+            Graduado de Bachillerato Técnico Industrial en Electrónica de Consumo y 
+            de Bachillerato Internacional. 2013/09 – 2019/07
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-list>
+          <ion-list-header lines="full" color="primary">
+            <ion-label>Certificados</ion-label>
+          </ion-list-header>
+          <ion-item>
+            <ion-label>Desarrollo de la página web de la ESFOT. 2022/03</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>Gestión documental de acuerdos institucionales en la DIR. 2022/03</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>Certificate English Language Advanced Level Profiency. 2021/09</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>Scrum Foundation Professional Certificate SFPC. 2021/08</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>Introducción al Desarrollo Web I y II. 2021/07</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>English Course Advanced Two. 2021/05</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>Curso Tutorial de C++ y Java. 2020/09</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>Operador Informático. 2016/05</ion-label>
+          </ion-item>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
 </ion-content>
+
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <app-explore-container name="Contacto directo" ></app-explore-container>
+  </ion-toolbar>
+</ion-footer>
